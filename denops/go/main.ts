@@ -5,7 +5,7 @@ declare const global: any;
 
 export async function main(denops: Denops) {
   const go = new global.Go();
-  const url = fromFileUrl(new URL("deno.wasm", import.meta.url));
+  const url = fromFileUrl(new URL("main.wasm", import.meta.url));
   const f = await Deno.readFile(url);
   const inst = await WebAssembly.instantiate(f, go.importObject);
   go.run(inst.instance);
