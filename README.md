@@ -1,4 +1,4 @@
-denops-go
+denops-go-example
 =========
 denops plugin build by go(wasm).
 
@@ -15,7 +15,7 @@ Requirements:
 Install:
 --------
 ```
-Plug 'raa0121/denosp-go'
+Plug 'raa0121/denosp-go-example'
 ```
 
 License:
