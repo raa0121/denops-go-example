@@ -18,6 +18,18 @@ Install:
 Plug 'raa0121/denosp-go-example'
 ```
 
+How To build wasm:
+------------------
+Windows
+```
+build.bat
+```
+
+macOS/Linux
+```
+./build.sh
+```
+
 License:
 --------
 MIT
