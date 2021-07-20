@@ -13,7 +13,6 @@ export async function main(denops: Denops) {
     async add(...args: unknown[]) : Promise<void> {
       ensureArray(args);
       const nums = (args as string[]).map((i) => parseInt(i));
-      console.log(nums);
       const result = global.GoAdd(nums[0], nums[1]);
       console.log(result);
     },
